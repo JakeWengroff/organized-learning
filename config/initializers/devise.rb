@@ -6,7 +6,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` on Rails 4+ applications as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = '0bc2e1c30fbb6d9dfb2592ea4caa210523bf64855d74f5b2739cff5afe759b50a4f513449df2b962aa12096ee991e37e374bdb17bef834bd37db9844f52d98aa'
+  config.secret_key = '7cca49a550e49b1eacb16e5725f3048e76b89c5b2ebc85a1533f0e431fbc5fe1f17adfd4627f417ad89fac699e28343981c38658c842f8e2c7cfb5bd3e7be35c'
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
@@ -39,6 +39,9 @@ Devise.setup do |config|
   # if you set :request_keys to [:subdomain], :subdomain will be used on authentication.
   # The same considerations mentioned for authentication_keys also apply to request_keys.
   # config.request_keys = []
+
+  config.omniauth :facebook, ENV['FACEBOOK_APP_ID'], ENV['FACEBOOK_APP_SECRET']
+
 
   # Configure which authentication keys should be case-insensitive.
   # These keys will be downcased upon creating or modifying a user and when used
