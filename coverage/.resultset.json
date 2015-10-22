@@ -13,18 +13,6 @@
         null,
         null
       ],
-      "/Users/JakeWengroff/code/organized-learning/app/helpers/application_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/JakeWengroff/code/organized-learning/app/helpers/users_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/JakeWengroff/code/organized-learning/app/helpers/welcome_helper.rb": [
-        1,
-        null
-      ],
       "/Users/JakeWengroff/code/organized-learning/app/controllers/users_controller.rb": [
         1,
         null,
@@ -64,6 +52,6 @@
         null
       ]
     },
-    "timestamp": 1445435254
+    "timestamp": 1445546646
   }
 }
